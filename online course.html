@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>HTML Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #header, #home, #about, #testimonial, #contact, #footer {
+            width: 100%;
+            padding: 20px 0;
+        }
+        #header {
+            background-color: #f3971b;
+            color: #fff;
+        }
+        #header table {
+            margin: auto;
+        }
+        #header td a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+        #home, #about, #testimonial, #contact {
+            text-align: center;
+            color: #fff;
+        }
+        #home {
+            background-color: #292929;
+        }
+        #about {
+            background-color: #292929;
+        }
+        #testimonial {
+            background-color: #353535;
+        }
+        #contact {
+            background-color: #292929;
+        }
+        #footer {
+            background-color: #353535;
+            color: #f3971b;
+        }
+        hr {
+            width: 70px;
+            border: 1px solid #f3971b;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <table>
+            <tbody><tr>
+                <td><span class="fa fa-user-circle"></span> MINNATULLAH SHAFIA GULAFSHA</td>
+                <td><a href="#home">Home</a></td>
+                <td><a href="#about">About</a></td>
+                <td><a href="#testimonial">Testimonials</a></td>
+                <td><a href="#contact">Contact</a></td>
+            </tr>
+        </tbody></table>
+    </div>
+
+    <!-- Home Section -->
+    <div id="home">
+        <h3>Hi, I'm MINNATULLAH</h3>
+        <h2>ONLINE COURSE WEBSITE</h2>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <h2>About Me</h2>
+        <hr>
+        <img src="images/me1.png" alt="MINNATULLAH" width="150">
+        <h3>I am learning web development.</h3>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div id="testimonial">
+        <h2>Testimonials</h2>
+        <hr>
+        <div>
+            <h3>MINNATULLAH WEB DEVELOPMENT</h3>
+            <p>Learning HTML, CSS, and JavaScript.</p>
+        </div>
+        <div>
+            <h3>SHAFIA NISHAT</h3>
+            <p>Exploring programming languages.</p>
+        </div>
+        <div>
+            <h3>GULAFSHA</h3>
+            <p>Understanding the basics of web development.</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <h2>Contact</h2>
+        <hr>
+        <form>
+            <p><label for="name">Name:</label> <input type="text" id="name" size="30"></p>
+            <p><label for="email">Email:</label> <input type="email" id="email" size="30"></p>
+            <p><label for="message">Message:</label> <textarea id="message" rows="4" cols="32"></textarea></p>
+            <p><button type="submit">Submit</button></p>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <table>
+            <tbody><tr>
+                <td><span class="fa fa-facebook-square"></span> Facebook</td>
+                <td><span class="fa fa-twitter-square"></span> Twitter</td>
+                <td><span class="fa fa-instagram"></span> Instagram</td>
+                <td><span class="fa fa-linkedin-square"></span> LinkedIn</td>
+            </tr>
+            <tr>
+                <td><span class="fa fa-youtube-square"></span> YouTube</td>
+                <td><span class="fa fa-rss-square"></span> Blog</td>
+                <td><span class="fa fa-envelope-o"></span> Email</td>
+                <td><span class="fa fa-globe"></span> Website</td>
+            </tr>
+            <tr>
+                <td colspan="4"><a href="#header"><span class="fa fa-arrow-circle-up"></span> Top</a></td>
+            </tr>
+        </tbody></table>
+    </div>
+
+</body></html>
